@@ -1,6 +1,4 @@
-# smsbomb v2.0
-
-#!Usage
+# !Usage
 
 git clone https://github.com/omicr0nn/smsbombv2
 
