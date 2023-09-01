@@ -4,36 +4,6 @@ const title = require('./modules/title.js');
 const fastBomber = require('./modules/sms.js');
 const clear = require('clear');
 const clc = require('cli-color');
-const chalk = require('chalk');
-
-function rainbowText(text, delay = 100) {
-    const colors = [
-        chalk.red, chalk.yellow, chalk.green,
-        chalk.cyan, chalk.blue, chalk.magenta,
-        chalk.white,
-    ];
-
-    for (let i = 0; i < text.length; i++) {
-        const char = text[i];
-        const color = colors[i % colors.length];
-        process.stdout.write(color(char));
-        setTimeout(() => {
-            process.stdout.clearLine(0);
-            process.stdout.cursorTo(0);
-        }, i * delay);
-    }
-
-    console.log(); // Yeni satıra geç
-}
-
-function main() {
-    rainbowText("Coding by omicr0n");
-    console.log(chalk.white("Coding by Omicron"));
-}
-
-if (require.main === module) {
-    main();
-}
 
 clear();
 const darkGreen = '\u001b[31m';
