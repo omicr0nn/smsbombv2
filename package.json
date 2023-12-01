@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Can & FastUptime",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "clear": "^0.1.0",
