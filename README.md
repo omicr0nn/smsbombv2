@@ -4,7 +4,9 @@ git clone https://github.com/omicr0nn/smsbombv2
 
 cd smsbombv2
 
-npm install
+npm i readline-sync
+
+npm i axios
 
 node index.js
 
