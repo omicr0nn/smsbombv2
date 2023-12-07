@@ -6,22 +6,26 @@ const clear = require('clear');
 const clc = require('cli-color');
 
 clear();
-const darkGreen = '\u001b[31m';
-const bold = '\u001b[125m';
-const reset = '\u001b[0m';
 
-const text = 'OMİCRON SMS BOOMBER!?';
-const formattedText = `${bold}${darkGreen}${text}${reset}`;
+const omicronArt = `
+▄▀▀▀▀▄   ▄▀▀▄ ▄▀▄  ▄▀▀█▀▄    ▄▀▄▄▄▄   ▄▀▀▄▀▀▀▄  ▄▀▀▀▀▄   ▄▀▀▄ ▀▄ 
+█      █ █  █ ▀  █ █   █  █  █ █    ▌ █   █   █ █      █ █  █ █ █ 
+█      █ ▐  █    █ ▐   █  ▐  ▐ █      ▐  █▀▀█▀  █      █ ▐  █  ▀█ 
+▀▄    ▄▀   █    █      █       █       ▄▀    █  ▀▄    ▄▀   █   █  
+  ▀▀▀▀   ▄▀   ▄▀    ▄▀▀▀▀▀▄   ▄▀▄▄▄▄▀ █     █     ▀▀▀▀   ▄▀   █   
+         █    █    █       █ █     ▐  ▐     ▐            █    ▐   
+         ▐    ▐    ▐       ▐ ▐                           ▐        
 
-const text2 = "İletişim; discord: omicr0n || github: omicr0nn"
+         \x1b[32mcoding \x1b[31mby \x1b[32momicr0n
+`;
+console.log(omicronArt);
 
-  console.log(formattedText);
+const text2 = "İletişim; github: omicr0nn"
+
   console.log('\x1b[94m');
   console.log('Aramıza Hoşgeldin. İnsanlara zarar vermeye çalışıp hackerım diye geçinmiyorsun değilmi :)');
   console.log('\u001b[35m'+ text2);
   console.log('\x1b[0m'); 
-
-
 
 let telefon = rl.question('Telefon Numarasi Giriniz +90: ' .green);
 if (telefon.length != 10) {
