@@ -34,7 +34,7 @@ node index.js
 Also click to use in replit
 <p align="left"><a href="https://replit.com/@omicr0n/middlesmsbomb"><img src="https://skillicons.dev/icons?i=replit"></a></p>
 
-![Kali](https://i.hizliresim.com/dsljms4.png)
+![Kali](https://i.hizliresim.com/bck75xu.png)
 
 ## Dependencies
 
